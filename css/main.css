@@ -1,0 +1,37 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+};
+
+header{
+  height: 7vh;
+};
+
+.aside{
+  height:100vh;
+}
+
+.aside img{
+  border-radius: 50%;
+  width: 80px;
+  height:70px;
+}
+
+section h1, section h2{
+  display: inline;
+}
+
+form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid gray;
+}
+
+.card{
+  background-color: rgb(50, 169, 205);
+  height:50px;
+  width: 100px;
+}
